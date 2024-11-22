@@ -6,24 +6,37 @@
 <script>
 function getPassword() {
 //write your password here
-    var banana = '1720'
-    var password = document.getElementById("passwordbox")
+    var p1 = '1720'
+    var checkbox= document.getElementById("passwordbox")
     var checkedPassword = password.value
 
     if(checkedPassword == banana){
         return true;
+        var tru = true
     }
-    alert("wrong password. try again");
-    return false;
+    else
+        var tru =false
+        alert("wrong password. try again");
+        return false;
         }
+    }
+    function continu(){
+        if(tru == true)
+    }
+function getPassword2() {
+    var p2 = '1913'
+    var checkbox2 = document.getElementById("passwordbox")
+    var checkedPassword = 
+    if()
+}
 </script>
 
 </head>
 <body bgcolor="orange">
 <style></style>
 <div style="text-align:center;">please enter the password</div>
-<div style="border: 4px solid green; width: 30%; height: 40px;">Password:<input id="passwordbox" type= "text"/></div>
+<div style="border: 4px solid green; width: 30%; height: 40px;">checkbox:<input id="passwordbox" type= "text"/></div>
 
-<a href="file:///C:/Users/zalan/OneDrive/Documents/python_programming/escape%20game/password2.html" onclick="return getPassword();">to go to the next page, press here</a>
+
 </body>
 </html>
