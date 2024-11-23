@@ -10,7 +10,7 @@ function getPassword() {
     var p1 = '1720'
     var checkbox= document.getElementById("passwordbox")
     var checkedPassword = p1.value
-alert("hello");
+
     if(checkedPassword == p1){
         return true;
        
@@ -29,7 +29,9 @@ alert("hello");
 </head>
 <body>
 <style>
-    input [type="button"]{}
+    input [type="button"]{
+        onclick="return getPassword();"
+    }
 </style>
 <div style="text-align:center;">please enter the password</div>
 <input type ="button" value ="press to enter the code">    
